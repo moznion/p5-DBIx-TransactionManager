@@ -1,3 +1,6 @@
+use strict;
+use FindBin;
+use lib $FindBin::Bin;
 use inc::Module::Install;
 name 'DBIx-TransactionManager';
 all_from 'lib/DBIx/TransactionManager.pm';
